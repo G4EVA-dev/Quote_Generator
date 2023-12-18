@@ -14,12 +14,26 @@ body {
   align-items: center;
   background: rgb(37, 37, 80);
 }
+
 .container {
   text-align: center;
   width: 560px;
   height: 300px;
   background: #ff4;
   border-radius: 20px;
+}
+
+p{
+  text-align: right;
+  padding: 10px;
+}
+
+button {
+  margin-top: 25px;
+  font-size: large;
+  width: 60px;
+  padding: 10px;
+  cursor: pointer;
 }
 .loader {
   width: 100px;
