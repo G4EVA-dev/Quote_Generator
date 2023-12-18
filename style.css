@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "popins", sans-serif;
+  /* text-align: center; */
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(37, 37, 80);
+}
+.container {
+  text-align: center;
+  width: 560px;
+  height: 300px;
+  background: #ff4;
+  border-radius: 20px;
+}
+.loader {
+  width: 100px;
+  height: 100px;
+  /* Center the loader on the page */
+  margin: 10px auto;
+  /* Make the loader a circle */
+  border-radius: 50%;
+  /* Set the border size, style, and color */
+  border: 16px solid lightgray;
+  /* Set the border color of the loader itself */
+  border-top-color: green;
+  /* Animate the loader */
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
